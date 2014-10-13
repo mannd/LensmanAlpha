@@ -12,6 +12,9 @@ After preliminary development, playable versions will be developed on iOS (using
 - Graphics.  Lensman technology is not sophisticated computationally and controls probably analogue or CRT based.  CRT screen simulation similar to graphics of 2001 A Space Odyssey (e.g. NAV, COM, etc. screens) might be usable interface.  But no HAL!
 - Detailed random world generation.
 - Battle simulation.
+- Database required for worlds.
+    - ? Core Data on iOS
+    - ? cloud-based system (users shared data, multiplayer version)
 - And a whole lot more!
 
 **LensmanAlpha** for iOS is open source, and licensed under the 
