@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E6906DA19EB6905006DD19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6906D919EB6905006DD19D /* AppDelegate.swift */; };
+		8E6906DC19EB6905006DD19D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6906DB19EB6905006DD19D /* ViewController.swift */; };
+		8E6906DF19EB6905006DD19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6906DD19EB6905006DD19D /* Main.storyboard */; };
+		8E6906E119EB6905006DD19D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6906E019EB6905006DD19D /* Images.xcassets */; };
+		8E6906E419EB6905006DD19D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6906E219EB6905006DD19D /* LaunchScreen.xib */; };
+		8E6906F019EB6905006DD19D /* LensmanAlphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6906EF19EB6905006DD19D /* LensmanAlphaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E6906EA19EB6905006DD19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E6906CC19EB6905006DD19D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6906D319EB6905006DD19D;
+			remoteInfo = LensmanAlpha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E6906D419EB6905006DD19D /* LensmanAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensmanAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6906D819EB6905006DD19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6906D919EB6905006DD19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E6906DB19EB6905006DD19D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E6906DE19EB6905006DD19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E6906E019EB6905006DD19D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E6906E319EB6905006DD19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E6906E919EB6905006DD19D /* LensmanAlphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensmanAlphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6906EE19EB6905006DD19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6906EF19EB6905006DD19D /* LensmanAlphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensmanAlphaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E6906D119EB6905006DD19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6906E619EB6905006DD19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E6906CB19EB6905006DD19D = {
+			isa = PBXGroup;
+			children = (
+				8E6906D619EB6905006DD19D /* LensmanAlpha */,
+				8E6906EC19EB6905006DD19D /* LensmanAlphaTests */,
+				8E6906D519EB6905006DD19D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E6906D519EB6905006DD19D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6906D419EB6905006DD19D /* LensmanAlpha.app */,
+				8E6906E919EB6905006DD19D /* LensmanAlphaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6906D619EB6905006DD19D /* LensmanAlpha */ = {
+			isa = PBXGroup;
+			children = (
+				8E6906D919EB6905006DD19D /* AppDelegate.swift */,
+				8E6906DB19EB6905006DD19D /* ViewController.swift */,
+				8E6906DD19EB6905006DD19D /* Main.storyboard */,
+				8E6906E019EB6905006DD19D /* Images.xcassets */,
+				8E6906E219EB6905006DD19D /* LaunchScreen.xib */,
+				8E6906D719EB6905006DD19D /* Supporting Files */,
+			);
+			path = LensmanAlpha;
+			sourceTree = "<group>";
+		};
+		8E6906D719EB6905006DD19D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E6906D819EB6905006DD19D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E6906EC19EB6905006DD19D /* LensmanAlphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E6906EF19EB6905006DD19D /* LensmanAlphaTests.swift */,
+				8E6906ED19EB6905006DD19D /* Supporting Files */,
+			);
+			path = LensmanAlphaTests;
+			sourceTree = "<group>";
+		};
+		8E6906ED19EB6905006DD19D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E6906EE19EB6905006DD19D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E6906D319EB6905006DD19D /* LensmanAlpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6906F319EB6905006DD19D /* Build configuration list for PBXNativeTarget "LensmanAlpha" */;
+			buildPhases = (
+				8E6906D019EB6905006DD19D /* Sources */,
+				8E6906D119EB6905006DD19D /* Frameworks */,
+				8E6906D219EB6905006DD19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LensmanAlpha;
+			productName = LensmanAlpha;
+			productReference = 8E6906D419EB6905006DD19D /* LensmanAlpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E6906E819EB6905006DD19D /* LensmanAlphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6906F619EB6905006DD19D /* Build configuration list for PBXNativeTarget "LensmanAlphaTests" */;
+			buildPhases = (
+				8E6906E519EB6905006DD19D /* Sources */,
+				8E6906E619EB6905006DD19D /* Frameworks */,
+				8E6906E719EB6905006DD19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E6906EB19EB6905006DD19D /* PBXTargetDependency */,
+			);
+			name = LensmanAlphaTests;
+			productName = LensmanAlphaTests;
+			productReference = 8E6906E919EB6905006DD19D /* LensmanAlphaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E6906CC19EB6905006DD19D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "David Mann";
+				TargetAttributes = {
+					8E6906D319EB6905006DD19D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8E6906E819EB6905006DD19D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8E6906D319EB6905006DD19D;
+					};
+				};
+			};
+			buildConfigurationList = 8E6906CF19EB6905006DD19D /* Build configuration list for PBXProject "LensmanAlpha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E6906CB19EB6905006DD19D;
+			productRefGroup = 8E6906D519EB6905006DD19D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6906D319EB6905006DD19D /* LensmanAlpha */,
+				8E6906E819EB6905006DD19D /* LensmanAlphaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E6906D219EB6905006DD19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6906DF19EB6905006DD19D /* Main.storyboard in Resources */,
+				8E6906E419EB6905006DD19D /* LaunchScreen.xib in Resources */,
+				8E6906E119EB6905006DD19D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6906E719EB6905006DD19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E6906D019EB6905006DD19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6906DC19EB6905006DD19D /* ViewController.swift in Sources */,
+				8E6906DA19EB6905006DD19D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6906E519EB6905006DD19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6906F019EB6905006DD19D /* LensmanAlphaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E6906EB19EB6905006DD19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E6906D319EB6905006DD19D /* LensmanAlpha */;
+			targetProxy = 8E6906EA19EB6905006DD19D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E6906DD19EB6905006DD19D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6906DE19EB6905006DD19D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E6906E219EB6905006DD19D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6906E319EB6905006DD19D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E6906F119EB6905006DD19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E6906F219EB6905006DD19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E6906F419EB6905006DD19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LensmanAlpha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E6906F519EB6905006DD19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LensmanAlpha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E6906F719EB6905006DD19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LensmanAlphaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LensmanAlpha.app/LensmanAlpha";
+			};
+			name = Debug;
+		};
+		8E6906F819EB6905006DD19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LensmanAlphaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LensmanAlpha.app/LensmanAlpha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E6906CF19EB6905006DD19D /* Build configuration list for PBXProject "LensmanAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6906F119EB6905006DD19D /* Debug */,
+				8E6906F219EB6905006DD19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6906F319EB6905006DD19D /* Build configuration list for PBXNativeTarget "LensmanAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6906F419EB6905006DD19D /* Debug */,
+				8E6906F519EB6905006DD19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E6906F619EB6905006DD19D /* Build configuration list for PBXNativeTarget "LensmanAlphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6906F719EB6905006DD19D /* Debug */,
+				8E6906F819EB6905006DD19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E6906CC19EB6905006DD19D /* Project object */;
+}
