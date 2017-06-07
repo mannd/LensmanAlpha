@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var mainStackView: UIStackView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,16 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        if size.width > size.height {
+            mainStackView.axis = .horizontal
+        } else {
+            mainStackView.axis = .vertical
+        }
+        mainStackView.layoutSubviews()
+        mainStackView.setNeedsDisplay()
     }
 
 
