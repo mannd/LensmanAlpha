@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E31C6011EEF6CA000B8AED4 /* eurostile-bold-extended-593e006e6e3b5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E31C6001EEF6CA000B8AED4 /* eurostile-bold-extended-593e006e6e3b5.otf */; };
+		8E554C8B1EE8E2EC00CC0B07 /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E554C8A1EE8E2EC00CC0B07 /* StatusButton.swift */; };
 		8E6906DA19EB6905006DD19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6906D919EB6905006DD19D /* AppDelegate.swift */; };
 		8E6906DC19EB6905006DD19D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6906DB19EB6905006DD19D /* ViewController.swift */; };
 		8E6906DF19EB6905006DD19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6906DD19EB6905006DD19D /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E31C6001EEF6CA000B8AED4 /* eurostile-bold-extended-593e006e6e3b5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "eurostile-bold-extended-593e006e6e3b5.otf"; sourceTree = "<group>"; };
+		8E554C8A1EE8E2EC00CC0B07 /* StatusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusButton.swift; sourceTree = "<group>"; };
 		8E6906D419EB6905006DD19D /* LensmanAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensmanAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6906D819EB6905006DD19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E6906D919EB6905006DD19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +60,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E31C5FF1EEF6C8F00B8AED4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E31C6001EEF6CA000B8AED4 /* eurostile-bold-extended-593e006e6e3b5.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		8E6906CB19EB6905006DD19D = {
 			isa = PBXGroup;
 			children = (
+				8E31C5FF1EEF6C8F00B8AED4 /* Fonts */,
 				8E6906D619EB6905006DD19D /* LensmanAlpha */,
 				8E6906EC19EB6905006DD19D /* LensmanAlphaTests */,
 				8E6906D519EB6905006DD19D /* Products */,
@@ -83,6 +96,7 @@
 				8E6906E019EB6905006DD19D /* Images.xcassets */,
 				8E6906E219EB6905006DD19D /* LaunchScreen.xib */,
 				8E6906D719EB6905006DD19D /* Supporting Files */,
+				8E554C8A1EE8E2EC00CC0B07 /* StatusButton.swift */,
 			);
 			path = LensmanAlpha;
 			sourceTree = "<group>";
@@ -198,6 +212,7 @@
 				8E6906DF19EB6905006DD19D /* Main.storyboard in Resources */,
 				8E6906E419EB6905006DD19D /* LaunchScreen.xib in Resources */,
 				8E6906E119EB6905006DD19D /* Images.xcassets in Resources */,
+				8E31C6011EEF6CA000B8AED4 /* eurostile-bold-extended-593e006e6e3b5.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E6906DC19EB6905006DD19D /* ViewController.swift in Sources */,
+				8E554C8B1EE8E2EC00CC0B07 /* StatusButton.swift in Sources */,
 				8E6906DA19EB6905006DD19D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
