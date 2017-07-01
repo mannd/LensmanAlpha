@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet var commandView: UIView!
     @IBOutlet var screensView: UIView!
 
+    // hides the status bar (battery indicator, etc.)
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +32,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         if size.width > size.height {

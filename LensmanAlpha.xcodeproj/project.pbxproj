@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E30ED251F06F0C100ABCEA1 /* ModulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E30ED241F06F0C100ABCEA1 /* ModulesViewController.swift */; };
 		8E31C6011EEF6CA000B8AED4 /* eurostile-bold-extended-593e006e6e3b5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E31C6001EEF6CA000B8AED4 /* eurostile-bold-extended-593e006e6e3b5.otf */; };
 		8E554C8B1EE8E2EC00CC0B07 /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E554C8A1EE8E2EC00CC0B07 /* StatusButton.swift */; };
 		8E6906DA19EB6905006DD19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6906D919EB6905006DD19D /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E30ED241F06F0C100ABCEA1 /* ModulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModulesViewController.swift; sourceTree = "<group>"; };
 		8E31C6001EEF6CA000B8AED4 /* eurostile-bold-extended-593e006e6e3b5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "eurostile-bold-extended-593e006e6e3b5.otf"; sourceTree = "<group>"; };
 		8E554C8A1EE8E2EC00CC0B07 /* StatusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusButton.swift; sourceTree = "<group>"; };
 		8E6906D419EB6905006DD19D /* LensmanAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensmanAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 				8E6906E219EB6905006DD19D /* LaunchScreen.xib */,
 				8E6906D719EB6905006DD19D /* Supporting Files */,
 				8E554C8A1EE8E2EC00CC0B07 /* StatusButton.swift */,
+				8E30ED241F06F0C100ABCEA1 /* ModulesViewController.swift */,
 			);
 			path = LensmanAlpha;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			files = (
 				8E6906DC19EB6905006DD19D /* ViewController.swift in Sources */,
 				8E554C8B1EE8E2EC00CC0B07 /* StatusButton.swift in Sources */,
+				8E30ED251F06F0C100ABCEA1 /* ModulesViewController.swift in Sources */,
 				8E6906DA19EB6905006DD19D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
