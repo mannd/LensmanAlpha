@@ -11,13 +11,14 @@ import UIKit
 
 final class ModulesViewController: UICollectionViewController {
     
-    private let reuseIdentifier = "ModuleButton"
-    fileprivate let sectionInsets = UIEdgeInsets(top: 20.0, left: 20.0, bottom: 20.0, right: 20.0)
+    fileprivate let reuseIdentifier = "ModuleButton"
+//    fileprivate let sectionInsets = UIEdgeInsets(top: 20.0, left: 20.0, bottom: 20.0, right: 20.0)
 
-    fileprivate let itemsPerRow : CGFloat = 3
-    // private let moduleButtons : [ModuleButton]()
+    fileprivate let itemsPerRow : CGFloat = 2
     
-    
+//    let labelFont = "GillSans-Bold"
+    let labelFont = "EurostileBQ-BoldExtended"
+    let labelFontSize: CGFloat = 40
 
 
     override func viewDidLoad() {
@@ -27,7 +28,7 @@ final class ModulesViewController: UICollectionViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        //self.collectionView!.register(ModuleCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
         
@@ -61,10 +62,40 @@ final class ModulesViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-        cell.backgroundColor = UIColor.orange
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ModuleCollectionViewCell
+
         // Configure the cell
-    
+        if indexPath.section == 0 && indexPath.item == 0 {
+            cell.moduleLabel.text = "S Y S"
+            cell.backgroundColor = UIColor(red:0.16, green:0.40, blue:0.58, alpha:1.0)
+            cell.moduleLabel.layer.borderColor = UIColor.green.cgColor
+            cell.moduleLabel.layer.borderWidth = 3.0;
+        }
+        else if indexPath.section == 0 && indexPath.item == 1 {
+            cell.moduleLabel.text = "D M G"
+            cell.backgroundColor = UIColor(red:0.15, green:0.37, blue:0.25, alpha:1.0)
+            cell.moduleLabel.layer.borderColor = nil
+            cell.moduleLabel.layer.borderWidth = 0
+        }
+        else if indexPath.section == 0 && indexPath.item == 1 {
+            cell.moduleLabel.text = "C O M"
+            cell.backgroundColor = .orange
+            cell.moduleLabel.layer.borderColor = nil
+            cell.moduleLabel.layer.borderWidth = 0
+        }
+        else {
+            cell.moduleLabel.text = "N A V"
+            cell.backgroundColor = UIColor(red:0.67, green:0.10, blue:0.24, alpha:1.0)
+            cell.moduleLabel.layer.borderColor = nil
+            cell.moduleLabel.layer.borderWidth = 0;
+        }
+        cell.moduleLabel.font = UIFont(name: labelFont, size: labelFontSize)
+        cell.moduleLabel.textColor = .white
+        cell.moduleLabel.textAlignment = .center
+        cell.moduleLabel.numberOfLines = 1
+        cell.moduleLabel.adjustsFontSizeToFitWidth = true
+        cell.moduleLabel.minimumScaleFactor = 0.25
+
         return cell
     }
 
@@ -108,17 +139,12 @@ extension ModulesViewController : UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
-        //2
-//        let paddingSpace = sectionInsets.left * (itemsPerRow + 1)
-//        let availableWidth = view.frame.width - paddingSpace
-//        let widthPerItem = availableWidth / itemsPerRow
         
-        let widthPerItem = view.frame.width  * itemsPerRow / (3 * itemsPerRow + 1)
+        let widthPerItem = view.frame.width  * itemsPerRow / (4 * itemsPerRow + 1)
         
         return CGSize(width: widthPerItem, height: widthPerItem)
     }
     
-    //3
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         insetForSectionAt section: Int) -> UIEdgeInsets {
@@ -127,7 +153,7 @@ extension ModulesViewController : UICollectionViewDelegateFlowLayout {
         //return sectionInsets
     }
     
-    // 4
+    
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         minimumLineSpacingForSectionAt section: Int) -> CGFloat {

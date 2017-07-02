@@ -121,31 +121,44 @@
         <scene sceneID="SoB-8v-zOi">
             <objects>
                 <collectionViewController id="6rq-0B-Doi" customClass="ModulesViewController" customModule="LensmanAlpha" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ktJ-DD-BY1">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="ktJ-DD-BY1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hkA-8b-YBF">
-                            <size key="itemSize" width="50" height="50"/>
-                            <size key="headerReferenceSize" width="50" height="2"/>
+                            <size key="itemSize" width="132" height="110"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ModuleButton" id="CuT-gQ-Ep1">
-                                <rect key="frame" x="0.0" y="2" width="50" height="50"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ModuleButton" id="CuT-gQ-Ep1" customClass="ModuleCollectionViewCell" customModule="LensmanAlpha" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="132" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="132" height="110"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T S T" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="APH-R5-Jjm">
+                                            <rect key="frame" x="20" y="25" width="92" height="61"/>
+                                            <fontDescription key="fontDescription" name="EurostileBQ-BoldExtended" family="Eurostile BQ" pointSize="50"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </view>
                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstItem="APH-R5-Jjm" firstAttribute="leading" secondItem="CuT-gQ-Ep1" secondAttribute="leading" constant="20" id="668-sa-2iT"/>
+                                    <constraint firstAttribute="trailing" secondItem="APH-R5-Jjm" secondAttribute="trailing" constant="20" id="Djy-f7-Bqd"/>
+                                    <constraint firstItem="APH-R5-Jjm" firstAttribute="centerX" secondItem="CuT-gQ-Ep1" secondAttribute="centerX" id="FnP-kF-EE3"/>
+                                    <constraint firstItem="APH-R5-Jjm" firstAttribute="centerY" secondItem="CuT-gQ-Ep1" secondAttribute="centerY" id="fYH-pd-qxZ"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="moduleLabel" destination="APH-R5-Jjm" id="9eD-se-lRI"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U9N-1q-bwK">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="2"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                        </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="6rq-0B-Doi" id="o4R-2N-ovE"/>
                             <outlet property="delegate" destination="6rq-0B-Doi" id="T5z-WK-EtW"/>
